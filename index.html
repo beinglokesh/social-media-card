@@ -50,6 +50,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div class="flex justify-center md:justify-start">
                 <img
+                  id="playBtn"
                   src="./img.png"
                   alt="Lokesh Sharma"
                   class="rounded-lg md:rounded-full object-cover border-none w-100 h-100 sm:w-50 sm:h-50 md:w-50 md:h-50 lg:w-50 lg:h-50"
@@ -128,12 +129,18 @@
             </div>
           </div>
           <div>
-            <audio autoplay loop>
-              <source src="./song.mp3" type="audio/mpeg">
+            <audio loop id="bgMusic">
+              <source src="./song.mp3" type="audio/mpeg" />
             </audio>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      document.getElementById("playBtn").addEventListener("click", () => {
+        document.getElementById("bgMusic").play();
+      });
+    </script>
   </body>
 </html>
