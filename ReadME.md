@@ -16,10 +16,18 @@ A clean and responsive **social media profile card** built using HTML and CSS. T
 
 ---
 
+## 📸 Preview
+
+![Preview](https://beinglokesh.github.io/social-media-card/preview.png)
+
+> *If the preview doesn't load, check the live demo above.*
+
+---
+
 ## 🛠️ Built With
 
 - HTML5
-- Tailwind CSS
+- CSS3 (Flexbox)
 
 ---
 
